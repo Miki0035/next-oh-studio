@@ -9,9 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        white: "#ffffff",
+        black: "#000000",
+        darkGrey: "#7f7f7f",
+        lightGrey: "#e8e5e4",
       },
+      fontFamily: {
+        sans: ["Open Sans", 'sans-serif']
+      }
     },
   },
   plugins: [],
