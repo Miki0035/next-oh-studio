@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
-import { GridItemProps } from "@/types";
-const GridLayout = ({items} : { items : GridItemProps[]}) => {
+import { HomeGridItemProps } from "@/types";
+const HomeGridLayout = ({ items }: { items: HomeGridItemProps[] }) => {
   return (
     <div className="w-full h-full grid grid-cols-1 text-animation place-items-center gap-4 mt-10 md:grid-cols-2 md:gap-x-1">
       {items.map(({ id, src, alt, text, isVideo }) => (
@@ -11,4 +11,4 @@ const GridLayout = ({items} : { items : GridItemProps[]}) => {
   );
 };
 
-export default GridLayout;
+export default HomeGridLayout;

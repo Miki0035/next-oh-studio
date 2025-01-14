@@ -1,4 +1,9 @@
-import { Footer, Greeting, GridLayout, GreyBackgroundSpan } from "@/components";
+import {
+  Footer,
+  Greeting,
+  HomeGridLayout,
+  GreyBackgroundSpan,
+} from "@/components";
 import { gridHomeImages, skillCards } from "@/constants";
 
 export default function Home() {
@@ -8,11 +13,11 @@ export default function Home() {
         <Greeting text=" A Brand and product designer working with clients globally" />
         <p className="hidden md:flex mt-5 justify-center gap-5 w-full items-center py-5 px-2">
           {skillCards.map((skill) => (
-           <GreyBackgroundSpan key={skill} text={skill} />
+            <GreyBackgroundSpan key={skill} text={skill} />
           ))}
         </p>
       </div>
-      <GridLayout items={gridHomeImages} />
+      <HomeGridLayout items={gridHomeImages} />
 
       <Footer />
     </main>
