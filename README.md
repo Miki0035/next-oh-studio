@@ -1,8 +1,6 @@
 # OH Studio Clone Site
 
-![Home page](/public/oh-studio-home.png)
-
-![Profile page](/public/oh-studio-profile.png)
+<img src="./public/oh-studio-home.png" alt="home page" width="500" height="300"/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -25,7 +23,7 @@ Please check it out 😮 and let me know what you think.
 
 ## 🌐 Website URL
 
-🔗 [OH.Studio clone ](https://mikiyas-next-oh-studio.onrender.com/)
+🔗 [Oh.Studio clone ](https://next-oh-studio.onrender.com/)
 
 ## 🤸 Quick Start
 
