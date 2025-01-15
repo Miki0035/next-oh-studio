@@ -1,6 +1,6 @@
 # OH Studio Clone Site
 
-<img src="./public/oh-studio-home.png" alt="home page" height="300"/>
+![Home Page](./public/oh-studio-home.png)
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
