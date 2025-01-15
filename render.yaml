@@ -1,0 +1,10 @@
+services:
+  - type: nextjs-static
+    runtime: static
+    plan: starter
+    buildCommand: yarn; yarn build
+    staticPublishPath: out
+    autoDeploy: false
+    envVars:
+      - key: NODE_ENV
+        value: production
